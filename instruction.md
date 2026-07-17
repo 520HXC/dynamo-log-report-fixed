@@ -1,5 +1,5 @@
 Read the Apache-style access log at /app/access.log and write the summary to
-/app/report.json. Do not modify the input log.
+/app/report.json.
 
 1. The output must be a valid JSON object with exactly three keys. total_requests
    and unique_ips must be integers, and top_path must be a string.
